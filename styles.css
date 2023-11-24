@@ -85,18 +85,28 @@ footer {
   background-image: url(images/tom4.png);
 }
 
-@media (min-width: 268px) and (max-width: 320px) {
-  body {
-    height: 100vh;
-  }
-  .drum {
-    width: 100px;
-    height: 100px;
-    font-size: 3rem;
-  }
-}
 
-@media (min-width: 320.9px) and (max-width: 428px) {
+
+@media (min-width: 160px) and (max-width: 267.9px) {
+  body {
+    height: 200vh;
+  }
+  .drum {
+    width: 40px;
+    height: 40px;
+    font-size: 0.7rem;
+    
+  }
+
+  
+   
+  h1 {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+}
+@media (min-width: 268px) and (max-width: 320.9px) {
   body {
     height: 100vh;
   }
@@ -104,6 +114,22 @@ footer {
     width: 100px;
     height: 100px;
     font-size: 3rem;
+  }
+  h1 {
+    margin-top: -50px;
+    font-size: 3rem;
+  }
+  
+}
+@media (min-width: 321px) and (max-width: 428px) {
+  body {
+    height: 100vh;
+  }
+  .drum {
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    color: black;
   }
   h1 {
     margin-top: -50px;
