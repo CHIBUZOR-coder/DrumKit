@@ -85,9 +85,9 @@ footer {
   background-image: url(images/tom4.png);
 }
 
-@media (min-width: 320px) and (max-width: 350px) {
+@media (min-width: 268px) and (max-width: 320px) {
   body {
-    height: 200vh;
+    height: 100vh;
   }
   .drum {
     width: 100px;
