@@ -1,9 +1,9 @@
 body {
   text-align: center;
   /* background-color: #ddb4dd; */
-  background-image: url(images/imag2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(images/play.png) no-repeat center center/ cover;
+ 
+
   
 }
 
